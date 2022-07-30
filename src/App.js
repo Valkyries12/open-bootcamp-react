@@ -4,6 +4,9 @@ import './App.css';
 // import Greetingf from './components/pure/Greetingf';
 import TaskListComponent from './components/container/Task_list';
 import ComponenteA from './components/pure/ComponenteA';
+import GreetingStyled from './components/pure/GreetingStyled';
+import Clock from './components/Clock';
+import ClockFuncional from './components/ClockFuncional';
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
         {/* <Greeting name={"Nicolás"}> </Greeting> */}
         {/* <Greetingf name={"Nicolás"}></Greetingf> */}
         {/* <TaskListComponent></TaskListComponent> */}
-        <ComponenteA></ComponenteA>
+        {/* <GreetingStyled name="Nicolás"></GreetingStyled> */}
+        {/* <Clock></Clock> */}
+        <ClockFuncional></ClockFuncional>
+        {/* <ComponenteA></ComponenteA> */}
       </header>
     </div>
   );
